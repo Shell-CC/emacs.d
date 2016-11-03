@@ -47,7 +47,6 @@
 (setq ivy-use-virtual-buffers t)
 
 ;; Parent
-(require 'smartparens)
 ;;(add-hook 'emacs-lisp-mode-hook 'smartparens-mode)
 (smartparens-global-mode t)
 
