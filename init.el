@@ -93,7 +93,9 @@
        '(("\\.js\\'" . js2-mode))
        auto-mode-alist))
 
-
+;; add popwin mode
+(require 'popwin)
+(popwin-mode t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
