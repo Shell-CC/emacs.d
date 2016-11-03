@@ -17,6 +17,7 @@
 			   js2-mode
 			   nodejs-repl
 			   exec-path-from-shell
+			   popwin
 
 			   ) "Default packages")
 (setq package-selected-packages xiaoxig/packages)
