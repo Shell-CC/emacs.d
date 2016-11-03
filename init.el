@@ -47,6 +47,7 @@
 (global-company-mode t)
 (global-hl-line-mode t)
 (delete-selection-mode t)
+(global-auto-revert-mode t)
 
 (defun open-my-init-file()
   (interactive)
