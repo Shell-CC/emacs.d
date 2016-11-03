@@ -55,6 +55,7 @@
 
 (setq-default cursor-type 'bar)
 (setq make-backup-files nil)
+(setq auto-save-default nil)
 (setq inhibit-splash-screen t)
 
 ;; recent files
