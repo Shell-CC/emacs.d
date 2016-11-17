@@ -12,7 +12,9 @@
 (require 'recentf)
 (recentf-mode 1)
 (setq recentf-max-menu-items 10)
-(global-set-key "\C-x\ \C-r" 'recentf-open-files)
+
+;; show parents
+(show-paren-mode t)
 
 (defun indent-buffer()
   (interactive)
