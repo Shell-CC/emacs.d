@@ -9,9 +9,11 @@
 (global-set-key (kbd "C-h f") 'counsel-describe-function)
 (global-set-key (kbd "C-h v") 'counsel-describe-variable)
 
-(global-set-key (kbd "C-M-\\") 'indent-region-or-buffer)
+(global-set-key (kbd "C-x TAB") 'indent-region-or-buffer)
 
 (global-set-key (kbd "s-/") 'hippie-expand)
+
+(global-set-key (kbd "C-c t i") 'my-toggle-web-indent)
 
 (with-eval-after-load 'dired
   (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
